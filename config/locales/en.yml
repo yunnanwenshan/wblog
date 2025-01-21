@@ -1,4 +1,6 @@
 en:
+  site_name: 'clackyai'
+  site_description: 'A tech blog focused on AI and developer tools, sharing cutting-edge technology and practical experience'
   comment: "Comment"
   edit: 'Edit'
   destroy: 'Destroy'
@@ -33,16 +35,16 @@ en:
 
   head:
     home: 'Home'
-    tech: 'Tech'
-    life: 'Life'
-    creator: 'Startup'
+    tech: 'AI Tech'
+    life: 'Dev Tools'
+    creator: 'Practice'
     timeline: 'Timeline'
-    about: 'About'
+    about: 'About clackyai'
 
   title:
-    home: 'Home'
+    home: 'clackyai - Tech Blog'
     timeline: 'Timeline'
-    about: 'About Me'
+    about: 'About clackyai'
 
   comment_attributes:
     email: 'Format Validation Failed'

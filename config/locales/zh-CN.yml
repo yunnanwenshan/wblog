@@ -1,4 +1,6 @@
 zh-CN:
+  site_name: 'clackyai'
+  site_description: '专注于AI和开发者工具的技术博客，分享前沿技术和实践经验'
   comment: "评论"
   edit: '编辑'
   destroy: '删除'
@@ -33,16 +35,16 @@ zh-CN:
 
   head:
     home: '首页'
-    tech: '技术'
-    life: '生活'
-    creator: '创业'
+    tech: 'AI技术'
+    life: '开发者工具'
+    creator: '实践经验'
     timeline: '时间线'
-    about: '关于我'
+    about: '关于clackyai'
 
   title:
-    home: '首页'
+    home: 'clackyai - 技术博客'
     timeline: '时间线'
-    about: '关于我'
+    about: '关于clackyai'
 
 
   activerecord:
