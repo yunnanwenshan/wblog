@@ -4,18 +4,28 @@
 # or operating system, you probably want to add a global ignore instead:
 #   git config --global core.excludesfile '~/.gitignore_global'
 
+# Clacky specific configuration files
+.1024*
+!.1024
+.breakpoints
+
 # Ignore bundler config.
 /.bundle
 
-# Ignore the default SQLite database.
-/db/*.sqlite3
-/db/*.sqlite3-journal
-
-# Ignore all logfiles and tempfiles.
+# Ignore Ruby/Rails specific files
+*.rbc
+capybara-*.html
+.rspec
 /log/*
 /tmp/*
 !/log/.keep
 !/tmp/.keep
+/db/*.sqlite3
+/db/*.sqlite3-journal
+/coverage/
+/spec/tmp
+.env
+.env.*
 
 # Ignore uploaded files in development.
 /storage/*
@@ -26,6 +36,7 @@
 # Ignore master key for decrypting credentials and more.
 /config/master.key
 
+# Ignore Yarn/Node specific files
 /public/packs
 /public/packs-test
 /node_modules
@@ -47,7 +58,6 @@ yarn-debug.log*
 *.old
 *.bak
 *~
-.env
 .byebug_history
 .DS_Store
 
