@@ -10,9 +10,9 @@ html
     meta name="MobileOptimized" content="320"
     meta name="turbo-cache-control" content="no-cache"
     - if content_for?(:title)
-      title = format("%s - Dashboard", yield(:title))
+      title = format("%s - #{t(:site_name)} Admin", yield(:title))
     - else
-      title Dashboard
+      title = "#{t(:site_name)} Admin"
     = csrf_meta_tags
     = action_cable_meta_tag
     = content_for?(:head) ? yield(:head) : ''
@@ -46,5 +46,5 @@ html
             | Anything you want
           /! Default to the left
           strong
-            | Copyright &copy; 2019 - All rights reserved.
+            | Copyright &copy; 2024 #{t(:site_name)} - All rights reserved.
           | Theme by AdminLTE.io
